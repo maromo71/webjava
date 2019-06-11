@@ -8,7 +8,7 @@ Materiais de Aula. Conteúdo dos arquivos.
 
 #### Material WEB01
 
-Introdução ao conteúdo Java para WEB na plataforma SIGA.
+Introdução ao conteúdo Java para WEB na **plataforma SIGA**.
 
 #### Material WEB02
 
