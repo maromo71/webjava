@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Aplicação Times e Jogadores JSF</title>
+</h:head>
+<h:body>
+
+    <h1>Jogadores do Time</h1>
+
+    <h3>
+        <h:messages/>
+    </h3>
+
+    <h:link value="Novo Jogador" outcome="adicionar"/>
+
+    <h:dataTable value="#{jogadorBean.jogadores}" var="jogador">
+        <h:column>
+            <f:facet name="header">#</f:facet>
+            #{jogador.idJogador}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Nome</f:facet>
+            #{jogador.nome}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Apelido</f:facet>
+            #{jogador.apelido}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Posição</f:facet>
+            #{jogador.posicao}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Idade</f:facet>
+            #{jogador.idade}
+        </h:column>
+
+        <h:column>
+            <h:link value="Editar" outcome="editar">
+                <f:param name="jogador" value="#{jogador.idJogador}"/>
+            </h:link>
+        </h:column>
+
+        <h:column>
+            <h:link value="Remover" outcome="remover">
+                <f:param name="jogador" value="#{jogador.idJogador}"/>
+            </h:link>
+        </h:column>
+    </h:dataTable>
+
+</h:body>
+</html>

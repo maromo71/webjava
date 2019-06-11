@@ -1,0 +1,4 @@
+net/maromo/bean/JogadorBean.class
+net/maromo/dao/JpaUtil.class
+net/maromo/model/Jogador.class
+net/maromo/dao/JogadorDao.class

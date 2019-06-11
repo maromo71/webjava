@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:17:44:38 -0300] "GET /web03-tableless HTTP/1.1" 302 - http-bio-8082-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:17:44:38 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8082-exec-3 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:17:44:54 -0300] "GET /web03-tableless/index,html HTTP/1.1" 404 1003 http-bio-8082-exec-4 18
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:17:45:02 -0300] "GET /web03-tableless/index.html HTTP/1.1" 200 1235 http-bio-8082-exec-6 8
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:17:46:23 -0300] "GET /web03-tableless HTTP/1.1" 302 - http-bio-8082-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:17:46:23 -0300] "GET /web03-tableless/ HTTP/1.1" 200 1223 http-bio-8082-exec-3 26
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:17:46:23 -0300] "GET /web03-tableless/estilo.css HTTP/1.1" 304 - http-bio-8082-exec-4 3

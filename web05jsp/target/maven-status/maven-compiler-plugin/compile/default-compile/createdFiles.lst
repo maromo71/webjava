@@ -1,0 +1,4 @@
+net/maromo/modelo/Jogador.class
+net/maromo/dao/ConnectionFactory.class
+net/maromo/dao/JogadorDao.class
+net/maromo/servlet/TimeServlet.class

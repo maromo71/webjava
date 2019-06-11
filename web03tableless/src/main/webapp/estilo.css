@@ -1,0 +1,53 @@
+body{
+    background-color: #00000f;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    padding: 10px;
+}
+#site{
+    margin: auto;
+    width: 70%;
+    text-align: left;
+    background-color: #ff0000;
+}
+.topo{
+    width: 100%;
+    display: block;
+    height: 120px;
+    background-position: center;
+    background-color: #ff0000;
+}
+.meio{
+    width: 100%;
+    display: inline;
+}
+.menu{
+    width: 20%;
+    display: block;
+    float:left;
+    font-family: Arial, Times, serif;
+    font-size: 13px;
+    text-align: left;
+    background-color: #ff0000;
+    min-height: 280px;
+}
+.conteudo{
+    width: 80%;
+    display: inline-block;
+    font-family: Arial, Times, serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    float: right;
+    min-height: 280px;
+}
+.conteudo p{
+    padding: 10px;
+}
+.rodape{
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-color: #ff0000;
+    text-align: center;
+    min-height: 22px;
+}

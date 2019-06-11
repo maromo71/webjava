@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+    <title>Editar dados do Jogador</title>
+    <f:metadata>
+        <f:viewParam name="jogador" value="#{jogadorBean.jogador.idJogador}"/>
+        <f:event type="preRenderView" listener="#{jogadorBean.jogadorPorId}"/>
+    </f:metadata>
+</h:head>
+<h:body>
+    <h1>Editar Jogador</h1>
+
+    <h3>
+        <h:messages/>
+    </h3>
+
+    <h:form rendered="#{jogadorBean.jogador.idJogador != 0}">
+
+        <h:panelGrid columns="3">
+            <h:outputLabel value="Nome Jogador:"/>
+            <h:inputText id="nome" value="#{jogadorBean.jogador.nome}"
+                         required="true">
+                <f:validateLength minimum="3" maximum="60"/>
+            </h:inputText>
+            <h:message for="nome"/>
+
+            <h:outputLabel value="Apelido Jogador:"/>
+            <h:inputText id="apelido" value="#{jogadorBean.jogador.apelido}"
+                         required="true">
+                <f:validateLength minimum="3" maximum="60"/>
+            </h:inputText>
+            <h:message for="apelido"/>
+
+            <h:outputLabel value="Posição do Jogador:"/>
+            <h:inputText id="posicao" value="#{jogadorBean.jogador.posicao}"
+                         required="true">
+                <f:validateLength minimum="3" maximum="60"/>
+            </h:inputText>
+            <h:message for="posicao"/>
+
+
+            <h:outputLabel value="idade:"/>
+            <h:inputText id="idade"
+                         value="#{jogadorBean.jogador.idade}"
+                         required="true">
+                <f:validateLength minimum="2" maximum="4"/>
+            </h:inputText>
+            <h:message for="idade"/>
+
+
+        </h:panelGrid>
+
+        <h:commandButton value="Enviar" action="#{jogadorBean.editar}"/>
+
+    </h:form>
+
+    <h:link value="Voltar" outcome="home" />
+</h:body>
+</html>

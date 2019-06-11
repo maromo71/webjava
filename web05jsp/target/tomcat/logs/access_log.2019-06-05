@@ -1,0 +1,2 @@
+127.0.0.1 - - [05/Jun/2019:11:23:47 -0300] "GET /web05jsp HTTP/1.1" 302 - http-bio-8082-exec-1 0
+127.0.0.1 - - [05/Jun/2019:11:23:50 -0300] "GET /web05jsp/listaJogadores.jsp HTTP/1.1" 200 573 http-bio-8082-exec-2 820

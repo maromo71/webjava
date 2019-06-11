@@ -1,0 +1,14 @@
+127.0.0.1 - - [10/Jun/2019:17:02:35 -0300] "GET /time HTTP/1.1" 302 - http-bio-8086-exec-1 0
+127.0.0.1 - - [10/Jun/2019:17:02:37 -0300] "GET /time/ HTTP/1.1" 200 1555 http-bio-8086-exec-2 2266
+127.0.0.1 - - [10/Jun/2019:17:02:37 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8086-exec-3 0
+127.0.0.1 - - [10/Jun/2019:17:02:39 -0300] "GET /time/remover.xhtml?jogador=3 HTTP/1.1" 200 697 http-bio-8086-exec-5 166
+127.0.0.1 - - [10/Jun/2019:17:02:41 -0300] "POST /time/remover.xhtml HTTP/1.1" 500 4541 http-bio-8086-exec-6 21
+127.0.0.1 - - [10/Jun/2019:17:05:17 -0300] "GET /time HTTP/1.1" 302 - http-bio-8086-exec-1 0
+127.0.0.1 - - [10/Jun/2019:17:05:19 -0300] "GET /time/ HTTP/1.1" 200 1555 http-bio-8086-exec-2 1992
+127.0.0.1 - - [10/Jun/2019:17:05:19 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8086-exec-3 0
+127.0.0.1 - - [10/Jun/2019:17:05:21 -0300] "GET /time/remover.xhtml?jogador=2 HTTP/1.1" 200 695 http-bio-8086-exec-5 106
+127.0.0.1 - - [10/Jun/2019:17:05:22 -0300] "POST /time/remover.xhtml HTTP/1.1" 500 4541 http-bio-8086-exec-6 32
+127.0.0.1 - - [10/Jun/2019:17:10:10 -0300] "GET /time HTTP/1.1" 302 - http-bio-8086-exec-1 0
+127.0.0.1 - - [10/Jun/2019:17:10:12 -0300] "GET /time/ HTTP/1.1" 200 1555 http-bio-8086-exec-2 1782
+127.0.0.1 - - [10/Jun/2019:17:10:14 -0300] "GET /time/remover.xhtml?jogador=2 HTTP/1.1" 200 700 http-bio-8086-exec-3 97
+127.0.0.1 - - [10/Jun/2019:17:10:15 -0300] "POST /time/remover.xhtml HTTP/1.1" 500 4541 http-bio-8086-exec-4 34

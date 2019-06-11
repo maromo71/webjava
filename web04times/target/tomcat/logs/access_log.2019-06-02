@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:13:12:02 -0300] "GET /web04times HTTP/1.1" 302 - http-bio-8082-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:13:12:03 -0300] "GET /web04times/ HTTP/1.1" 200 719 http-bio-8082-exec-3 294
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:13:12:05 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8082-exec-4 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:33:54 -0300] "GET /web04times HTTP/1.1" 302 - http-bio-8082-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:33:55 -0300] "GET /web04times/ HTTP/1.1" 304 - http-bio-8082-exec-3 1315
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:33:55 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8082-exec-4 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:34:11 -0300] "POST /web04times/time HTTP/1.1" 200 212 http-bio-8082-exec-5 1459
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:34:24 -0300] "POST /web04times/time HTTP/1.1" 200 295 http-bio-8082-exec-7 281
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:55:53 -0300] "GET /web04times HTTP/1.1" 302 - http-bio-8082-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:55:53 -0300] "GET /web04times/ HTTP/1.1" 304 - http-bio-8082-exec-3 117
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:55:53 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8082-exec-4 0
+0:0:0:0:0:0:0:1 - - [02/Jun/2019:14:57:48 -0300] "POST /web04times/time HTTP/1.1" 200 385 http-bio-8082-exec-6 448
