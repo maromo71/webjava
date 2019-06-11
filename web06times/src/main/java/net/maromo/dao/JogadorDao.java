@@ -44,9 +44,10 @@ public class JogadorDao {
 
     public void remover(Jogador jogador){
         em = JpaUtil.getEntityManager();
+        Jogador j = em.find(Jogador.class, jogador.getIdJogador());
         tx = em.getTransaction();
         tx.begin();
-        em.remove(jogador);
+        em.remove(j);
         tx.commit();
         em.close();
     }
